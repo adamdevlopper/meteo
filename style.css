@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    text-align: center;
+    width: auto;
+    background: transparent;
+    padding: 20px;
+  }
+  
+  .row-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .col-8 {
+    padding: 0 20px;
+    width: auto;
+  }
+  
+  .title {
+    margin-top: 50px;
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .city-temperature {
+    margin-top: 20px;
+  }
+  
+  #ville {
+    text-transform: capitalize;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  #temperature {
+    font-size: 4em;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  #changer {
+    background: rgba(178, 223, 251, 0.3);
+    padding: 15px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  #changer:hover {
+    background: rgba(178, 223, 251, 0.5);
+  }
+  
