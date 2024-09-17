@@ -12,7 +12,7 @@ A simple **Weather App** that fetches and displays the current temperature for a
 - [Credits](#credits)
 
 ## Overview
-![Weather App](./meteoPictures.png) <!-- Replace with the actual path to a screenshot of your app -->
+![Weather App](./meteoPicture.png) <!-- Replace with the actual path to a screenshot of your app -->
 
 This app allows users to check the current temperature of a city. Users can change the city by clicking the "Change city" button and typing the name of the city they want to check. The data is fetched from the [OpenWeatherMap API](https://openweathermap.org/api).
 
